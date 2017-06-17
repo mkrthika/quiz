@@ -1,0 +1,75 @@
+body
+{
+	font-family: 'Times New Roman',serif;
+	background-color: white;
+	color: red;
+	background-image: url("http://7bna.net/images/friendship-images/friendship-images-38.jpg");
+}
+h2
+{
+	
+	color: red;
+    border-right: 1px;
+}
+.container
+{
+	height: 50px;
+	width: 1000px;
+	background: rbga(255,255,255,0.5);
+	padding:  10px;
+	border: 1px solid black;
+	box-shadow: 0 0 8px 3px #fff;
+}
+.option
+{
+	width: 200px;
+	padding: 10px 0 10px 15px;
+	display: block;
+	vertical-align: top;
+	background: rbga(255,255,255,0.5);
+	margin: 10px 0 10px 10px;
+	color:  green;
+	border-radius: 20px;
+}
+.title
+{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #08038C;
+}
+.option:hover{
+	background: #08038C;
+	color: #f6f6f6;
+}
+
+.next-btn{
+	border: none;
+	outline: ridge;
+	background: rgba(255, 25, 255, 0.5);
+	width: 100px;
+	height: 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	float: right;
+	margin: 10px;
+}
+
+.next-btn:hover{
+	background: #08038C;
+	color: #f6f6f6;
+}
+
+.result{
+	height: 60px;
+	text-align: center;
+	font-size: 50px;
+	color: red;
+	background-color: black;
+}
+
+.option input:checked .option{
+	background: #08038C;
+	color: #000;
+}
